@@ -39,9 +39,12 @@
         <general joint="leg_back_l_3" name="leg_back_l_3" />
     </actuator>
     <default>
+        <general forcerange="-7 7" forcelimited="true" biastype="affine" gainprm="10.0 0 0"
+            biasprm="0 -10.0 -0.2" />
+        <!--
         <general forcerange="-3 3" forcelimited="true" biastype="affine" gainprm="5.0 0 0"
             biasprm="0 -5.0 -0.1" />
-
+        -->
 
         <!-- visual geom will go to group 4 -->
         <geom condim="3" contype="0" conaffinity="0" group="4" />
