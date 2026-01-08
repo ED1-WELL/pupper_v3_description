@@ -77,6 +77,10 @@
             scale="1 1 -1" />
         <mesh name="LegAssemblyForFlangedv26_015" file="LegAssemblyForFlangedv26_015.stl"
             scale="1 1 -1" />
+        <mesh name="wheel" file="Wheel.stl"
+            scale="0.001 0.001 0.001" />
+        <mesh name="spacer" file="Spacer.stl"
+            scale="0.001 0.001 0.001" />
     </asset>
     <worldbody>
         <body name="base_link" pos="0 0 0.13" gravcomp="0">
@@ -115,6 +119,16 @@
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_003" />
                         <site name="leg_front_r_3_foot_site" pos="0.06231 -0.06216 0.018" />
+                    <body name="spacer" pos="0 0 0.027" quat="0 0 0.707106 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="spacer" />
+                    <body name="wheel" pos="0 0.024 0" quat="0 0 0 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="wheel" />
+                    </body>
+                    </body> 
                     </body>
                 </body>
             </body>
