@@ -119,11 +119,11 @@
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_003" />
                         <site name="leg_front_r_3_foot_site" pos="0.06231 -0.06216 0.018" />
-                    <body name="spacer" pos="0 0 0.027" quat="0 0 0.707106 0.707106" gravcomp="0">
+                    <body name="spacer_FR" pos="0 0 0.027" quat="0 0 0.707106 0.707106" gravcomp="0">
                         <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="spacer" />
-                    <body name="wheel" pos="0 0.024 0" quat="0 0 0 0.707106" gravcomp="0">
+                    <body name="wheel_FR" pos="0 0.024 0" quat="0 0 0 0.707106" gravcomp="0">
                         <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="wheel" />
@@ -161,6 +161,16 @@
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_012" />
                         <site name="leg_front_l_3_foot_site" pos="0.06231 0.06216 0.018" />
+                    <body name="spacer_FL" pos="0 0 0.027" quat="0 0 0.707106 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="spacer" />
+                    <body name="wheel_FL" pos="0 0.024 0" quat="0 0 0 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="wheel" />
+                    </body>
+                    </body>
                     </body>
                 </body>
             </body>
@@ -192,6 +202,16 @@
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_007" />
                         <site name="leg_back_r_3_foot_site" pos="0.06231 -0.06216 0.018" />
+                    <body name="spacer_RR" pos="0 0 0.027" quat="0 0 0.707106 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="spacer" />
+                    <body name="wheel_RR" pos="0 0.024 0" quat="0 0 0 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="wheel" />
+                    </body>
+                    </body>
                     </body>
                 </body>
             </body>
@@ -224,6 +244,16 @@
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_015" />
                         <site name="leg_back_l_3_foot_site" pos="0.06231 0.06216 0.018" />
+                    <body name="spacer_RL" pos="0 0 0.027" quat="0 0 0.707106 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="spacer" />
+                    <body name="wheel_RL" pos="0 0.024 0" quat="0 0 0 0.707106" gravcomp="0">
+                        <geom pos="0 0 0" quat="1.32679e-06 0 0 1" type="mesh"
+                            contype="0" conaffinity="0" group="1" density="0"
+                            mesh="wheel" />
+                    </body>
+                    </body>
                     </body>
                 </body>
             </body>
